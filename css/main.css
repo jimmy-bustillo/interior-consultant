@@ -1,0 +1,20 @@
+--root {
+  /* Fonts */
+  --principal: "Lora", serif;
+  --secundaria: "Montserrat", sans-serif;
+
+  /* Colors */
+  --oscuro: #181719;
+  --claro: #fff;
+  --gris: #a9a9a9;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
