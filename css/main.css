@@ -69,3 +69,7 @@ p {
   color: var(--claro);
   font-family: var(--secundaria);
 }
+.navegacion ul li a:hover {
+  border-bottom: 2px solid var(--claro);
+  padding-bottom: 5px;
+}
