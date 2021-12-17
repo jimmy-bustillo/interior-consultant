@@ -27,7 +27,7 @@ p {
   padding: 0;
 }
 
-.container {
+.header-container {
   background-color: var(--oscuro);
 }
 
