@@ -78,7 +78,7 @@ p {
   width: 100%;
   height: 60rem;
   display: flex;
-  border: 2px solid white;
+  margin-top: 10rem;
 }
 
 .main-info {
@@ -108,4 +108,17 @@ p {
   font-size: 1.8rem;
   font-family: var(--secundaria);
   font-weight: 700;
+}
+
+.main-image img {
+  width: 60rem;
+}
+
+.main-profile-account--image img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.main-profile {
+  color: var(--claro);
 }
