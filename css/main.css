@@ -87,6 +87,7 @@ p {
   gap: 3rem;
   padding: 7rem;
   display: flex;
+  margin-right: 13rem;
 }
 
 .main-info h1 {
@@ -111,14 +112,47 @@ p {
 }
 
 .main-image img {
-  width: 60rem;
+  min-width: 80rem;
+  max-height: 58rem;
 }
 
 .main-profile-account--image img {
   border-radius: 50%;
-  width: 10rem;
+  max-width: 5rem;
 }
 
 .main-profile {
+  background-color: var(--oscuro);
   color: var(--claro);
+  width: 41rem;
+  height: 20rem;
+  padding: 3rem;
+  position: absolute;
+  top: 78rem;
+  left: 100rem;
+}
+
+.main-profile-account {
+  display: flex;
+  align-items: center;
+}
+
+.main-profile-account--info {
+  margin-left: 2rem;
+}
+.main-profile-account--info h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.8rem;
+}
+.main-profile-account--info p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--gris);
+}
+.main-profile-text {
+  margin-top: 2rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: "Lora", sans-serif;
 }
