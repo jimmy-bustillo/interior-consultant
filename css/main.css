@@ -156,3 +156,20 @@ p {
   line-height: 3rem;
   font-family: "Lora", sans-serif;
 }
+
+.footer-container {
+  margin-top: 30rem;
+  padding-bottom: 3rem;
+}
+
+.footer-container p {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: var(--gris);
+}
+
+.footer-container p a {
+  color: var(--gris);
+  text-decoration: none;
+}
