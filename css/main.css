@@ -112,8 +112,7 @@ p {
 }
 
 .main-image img {
-  min-width: 80rem;
-  max-height: 58rem;
+  width: 92%;
 }
 
 .main-profile-account--image img {
@@ -128,8 +127,8 @@ p {
   height: 20rem;
   padding: 3rem;
   position: absolute;
-  top: 78rem;
-  left: 100rem;
+  top: calc(80% + 2rem);
+  left: calc(90% - 40rem);
 }
 
 .main-profile-account {
@@ -172,4 +171,10 @@ p {
 .footer-container p a {
   color: var(--gris);
   text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+  .header-container {
+    height: 10rem;
+  }
 }
