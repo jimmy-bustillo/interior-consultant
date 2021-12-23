@@ -17,6 +17,12 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--oscuro);
 }
 
 h1,
@@ -25,14 +31,51 @@ h3,
 p {
   margin: 0;
   padding: 0;
+  color: var(--claro);
 }
 
 .container {
-  background-color: var(--oscuro);
+  width: 90%;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+.logo {
+  border: 1px solid var(--claro);
+}
+.logo p {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.navegacion ul {
+  display: flex;
+  gap: 8rem;
+}
+.navegacion li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: var(--claro);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.navegacion li a:hover {
+  border-bottom: 2px solid var(--claro);
+  padding-bottom: 5px;
+}
+
+/* .container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .header-container {
-  width: 100%;
+  width: 90%;
   height: 20rem;
   display: flex;
   color: white;
@@ -43,7 +86,7 @@ p {
   width: 12rem;
   height: 3rem;
   border: 1px solid var(--claro);
-  margin: 4.2rem 0 0 7.7rem;
+  margin-top: 4rem;
 }
 .logo p {
   text-align: center;
@@ -54,8 +97,7 @@ p {
 }
 
 .navegacion {
-  margin-top: 2.2rem;
-  margin-right: 7.7rem;
+  margin-top: 4rem;
 }
 .navegacion ul {
   display: flex;
@@ -79,6 +121,7 @@ p {
   height: 60rem;
   display: flex;
   margin-top: 10rem;
+  justify-content: space-around;
 }
 
 .main-info {
@@ -112,7 +155,8 @@ p {
 }
 
 .main-image img {
-  width: 92%;
+  max-width: 80rem;
+  margin-left: 9rem;
 }
 
 .main-profile-account--image img {
@@ -127,8 +171,8 @@ p {
   height: 20rem;
   padding: 3rem;
   position: absolute;
-  top: calc(80% + 2rem);
-  left: calc(90% - 40rem);
+  top: 92rem;
+  left: 98rem;
 }
 
 .main-profile-account {
@@ -177,4 +221,4 @@ p {
   .header-container {
     height: 10rem;
   }
-}
+} */
