@@ -69,6 +69,21 @@ p {
   padding-bottom: 5px;
 }
 
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 73rem;
+  min-width: 35rem;
+}
+.main-image img {
+  width: 100%;
+}
+
 /* .container {
   width: 90%;
   margin: 0 auto;
