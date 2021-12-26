@@ -93,13 +93,22 @@ p {
   font-weight: 400;
   font-family: var(--secundaria);
 }
-.main-info a {
+.main-info-link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+.main-info-link a {
   font-size: 1.8rem;
   font-weight: 700;
   font-family: var(--secundaria);
   line-height: 2rem;
   text-decoration: none;
   color: var(--claro);
+}
+.main-info-link img {
+  width: 2.5rem;
 }
 
 .main-image {
