@@ -65,7 +65,7 @@ p {
   font-weight: 700;
 }
 .navegacion li a:hover {
-  border-bottom: 2px solid var(--claro);
+  border-bottom: 3px solid var(--claro);
   padding-bottom: 5px;
 }
 
@@ -111,11 +111,9 @@ p {
 .main-info-link img {
   width: 2.5rem;
 }
+
 .main-sidebar {
   position: relative;
-  width: 100%;
-  max-width: 73rem;
-  min-width: 35rem;
 }
 .main-image {
   width: 100%;
@@ -134,16 +132,38 @@ p {
   background-color: var(--oscuro);
   padding: 3rem;
   position: absolute;
-  bottom: 0.1rem;
+  bottom: -9rem;
+  right: 2rem;
 }
 
 .main-profile-account {
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 .main-profile-account--image img {
   width: 5rem;
   border-radius: 50%;
+}
+
+.main-profile-account--info h2 {
+  font-size: 1.4rem;
+  font-family: var(--secundaria);
+  line-height: 1.7rem;
+}
+.main-profile-account--info p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-family: var(--secundaria);
+  color: var(--gris);
+  margin-top: 0.8rem;
+}
+.main-profile-text {
+  margin-top: 1rem;
+  font-family: var(--principal);
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  font-weight: 700;
 }
 
 .footer-container {
